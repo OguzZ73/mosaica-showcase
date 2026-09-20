@@ -1,18 +1,18 @@
-# 🌌 Mosaica Ecosystem Architecture Showcase
+# Mosaica Ecosystem Architecture Showcase
 
 > **Standalone Architecture & Component Showcase Repository**  
 > A curated, public-ready collection of high-performance Turkish NLP linting engines, reactive SVG data visualizations, interactive story branch graphs, and reader analytics derived from the **Mosaica Multi-Platform Ecosystem**.
 
 ---
 
-## 🏛️ Ecosystem Origins (Farklı Mosaica Projelerinden Derlenen Modüller)
+## Ecosystem Origins (Farklı Mosaica Projelerinden Derlenen Modüller)
 
 This repository unifies standalone modules extracted from two distinct production applications:
 
 | Application | Platform | Included Showcase Modules |
 | :--- | :--- | :--- |
-| **📱 Mosaica Dream** | **Mobile (Expo / React Native)** | • `DreamConstellationMap` (Bilinçaltı Evreni Star Map)<br>• `CosmicAstrolabe` (Animated SVG Astrolabe)<br>• `SleepDreamCorrelationStats` (Uyku/Rüya Analitiği)<br>• `LucidNotificationService` (WBTB & Lucid Engine) |
-| **🌐 Mosaica Web** | **Web (Next.js / React)** | • `zenflowEngine` (Türkçe Gramer & Yazım Motoru)<br>• `StoryVisualMap` (Versa Map Hikaye Ağacı)<br>• `ReadingSessionTracker` (Okuma Hızı & Oturum Takibi)<br>• `SnippetShareModal` (Alıntı Plaketi Üreteci) |
+| ** Mosaica Dream** | **Mobile (Expo / React Native)** | • `DreamConstellationMap` (Bilinçaltı Evreni Star Map)<br>• `CosmicAstrolabe` (Animated SVG Astrolabe)<br>• `SleepDreamCorrelationStats` (Uyku/Rüya Analitiği)<br>• `LucidNotificationService` (WBTB & Lucid Engine) |
+| ** Mosaica Web** | **Web (Next.js / React)** | • `zenflowEngine` (Türkçe Gramer & Yazım Motoru)<br>• `StoryVisualMap` (Versa Map Hikaye Ağacı)<br>• `ReadingSessionTracker` (Okuma Hızı & Oturum Takibi)<br>• `SnippetShareModal` (Alıntı Plaketi Üreteci) |
 
 ---
 
@@ -23,9 +23,9 @@ This repository unifies standalone modules extracted from two distinct productio
 
 ---
 
-## 🚀 Key Modules & Visual Highlights
+## Key Modules & Visual Highlights
 
-### 1. ⚡ ZenFlow Turkish Writing & Grammar Engine (`src/engines/zenflowEngine.ts`) — *from Mosaica Web*
+### 1. ZenFlow Turkish Writing & Grammar Engine (`src/engines/zenflowEngine.ts`) — *from Mosaica Web*
 A zero-dependency, pure TypeScript Turkish phonology, spelling, and grammar linting engine.
 - **Phonology & Suffix Rules:** Vowel harmony (`VOWEL_HARMONY`), consonant hardening (`CONSONANT_HARDENING`), and suffix detachment (`-de / -da` yazımı).
 - **Levenshtein Fuzzy Matcher:** Fast root-word suggestion algorithm for Turkish vocabulary with suffix tolerance.
@@ -37,7 +37,7 @@ A zero-dependency, pure TypeScript Turkish phonology, spelling, and grammar lint
 
 ---
 
-### 2. 🌌 Dream Constellation Map (`src/components/visualizations/DreamConstellationMap.tsx`) — *from Mosaica Dream*
+### 2. Dream Constellation Map (`src/components/visualizations/DreamConstellationMap.tsx`) — *from Mosaica Dream*
 Interactive SVG cluster visualization mapping entries into star constellations.
 - **Radial Node Positioning:** Distance-based node rendering calculated from lucidity and clarity scores.
 - **Dynamic Edge Networks:** Distance-threshold lines connecting close nodes into star networks.
@@ -48,7 +48,7 @@ Interactive SVG cluster visualization mapping entries into star constellations.
 
 ---
 
-### 3. 🔀 Versa Map — Interactive Story Branching Graph (`src/components/visualizations/StoryVisualMap.tsx`) — *from Mosaica Web*
+### 3. Versa Map — Interactive Story Branching Graph (`src/components/visualizations/StoryVisualMap.tsx`) — *from Mosaica Web*
 Interactive node-graph charting reader choices, decision points, and alternative storyline branches.
 
 <div align="center" style="margin-top: 15px; margin-bottom: 25px;">
@@ -58,7 +58,7 @@ Interactive node-graph charting reader choices, decision points, and alternative
 
 ---
 
-### 4. 📈 Sleep & Dream Correlation Analytics (`src/components/analytics/SleepDreamCorrelationStats.tsx`) — *from Mosaica Dream*
+### 4. Sleep & Dream Correlation Analytics (`src/components/analytics/SleepDreamCorrelationStats.tsx`) — *from Mosaica Dream*
 Analytical tracking components measuring sleep quality vs. dream experience, emotional impact, and recall frequencies.
 
 <div align="center" style="margin-top: 15px; margin-bottom: 25px;">
@@ -68,7 +68,7 @@ Analytical tracking components measuring sleep quality vs. dream experience, emo
 
 ---
 
-### 5. 📊 Reader Analytics & Dashboard Metrics (`src/components/analytics/ReadingSessionTracker.tsx`) — *from Mosaica Web*
+### 5. Reader Analytics & Dashboard Metrics (`src/components/analytics/ReadingSessionTracker.tsx`) — *from Mosaica Web*
 Client-side session tracker computing read-time metrics, scroll velocity (px/sec), active reading ratio, and device segmentation.
 
 <div align="center" style="margin-top: 15px; margin-bottom: 25px;">
@@ -78,7 +78,7 @@ Client-side session tracker computing read-time metrics, scroll velocity (px/sec
 
 ---
 
-## 🛠️ Repository Structure
+## Repository Structure
 
 ```text
 mosaica-showcase/
@@ -111,7 +111,7 @@ mosaica-showcase/
 
 ---
 
-## 🔒 Security & Sanitization Assurance
+## Security & Sanitization Assurance
 
 This showcase repository is strictly sanitized:
 - **Zero API Keys & Environment Secrets:** All production environment variables, database strings, and service credentials have been excluded.
@@ -120,5 +120,5 @@ This showcase repository is strictly sanitized:
 
 ---
 
-## 📄 License
+## License
 [MIT License](file:///Users/oguzz/mosaica-showcase/package.json) © Oğuz Z.
