@@ -1,0 +1,33 @@
+{
+  "name": "mosaica-showcase",
+  "version": "1.0.0",
+  "description": "Standalone Architecture Showcase: Turkish NLP Engines, SVG/Canvas Visualizations, and Reading Analytics derived from Mosaica Ecosystem",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "type-check": "tsc --noEmit"
+  },
+  "keywords": [
+    "react",
+    "react-native",
+    "typescript",
+    "nlp",
+    "turkish-grammar",
+    "svg-visualization",
+    "reading-analytics",
+    "canvas-graphics"
+  ],
+  "author": "OguzZ",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^18.0.0 || ^19.0.0",
+    "react-native": ">=0.74.0",
+    "react-native-svg": ">=15.0.0",
+    "lucide-react": ">=0.300.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.0",
+    "@types/react-native": "^0.73.0",
+    "typescript": "^5.4.0"
+  }
+}
