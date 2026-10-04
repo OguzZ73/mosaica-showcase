@@ -17,8 +17,8 @@ This repository unifies standalone modules extracted from two distinct productio
 ---
 
 <div align="center">
-  <img src="./assets/lucid-cover.png" width="45%" alt="Lucid Modu Ekranı" style="border-radius: 16px; margin-bottom: 20px;" />
-  <p><em>Figure 1: Mosaica Dream Lucid Modu Arayüzü</em></p>
+  <img src="./assets/lucid-cover.png" width="45%" alt="Lucid Mode Screen" style="border-radius: 16px; margin-bottom: 20px;" />
+  <p><em>Figure 1: Mosaica Dream Lucid Mode Interface</em></p>
 </div>
 
 ---
@@ -79,14 +79,14 @@ Client-side session tracker computing read-time metrics, scroll velocity (px/sec
 ---
 
 ### 6. 🌙 Lucid Dream Engine & WBTB Scheduler (`src/engines/useLucidMode.ts` & `LucidNotificationService.ts`) — *from Mosaica Dream*
-Mosaica Dream uygulamasının **Lucid Rüya (Lüsid Rüya) Sistemi**. Kullanıcının farkındalığını artırmak ve rüya kontrolünü sağlamak için tasarlanmış teknik kodları içerir:
-- **WBTB (Wake Back to Bed) Optimizasyonu:** Kullanıcının uyku saatine göre 4.5 saat sonrasına hassas alarmlar kurar.
-- **MILD, FILD ve SSILD Teknikleri:** Lucid rüya tekniklerinin çakışmadan çalışmasını ve kullanıcının rüya istatistiklerine göre (min. 3 rüya kaydı) açılıp kapanmasını denetler.
-- **Gerçeklik Testleri (Reality Checks):** Gün içinde "Şu an rüyada mıyım?" bildirimleri atarak farkındalık oluşturur.
+The core **Lucid Dream System** of the Mosaica Dream app. It includes technical implementations designed to increase user awareness and facilitate dream control:
+- **WBTB (Wake Back to Bed) Optimization:** Schedules precise alarms 4.5 hours after the user's sleep time.
+- **MILD, FILD, and SSILD Techniques:** Manages the collision-free operation of lucid dream techniques and toggles their availability based on user dream statistics (requires a minimum of 3 logged dreams).
+- **Reality Checks:** Generates daytime notifications asking "Am I dreaming right now?" to build habitual awareness.
 
 <div align="center" style="margin-top: 15px; margin-bottom: 25px;">
-  <img src="./assets/lucid-cover.png" width="45%" alt="Lucid Modu Arayüzü" style="border-radius: 12px;" />
-  <p><em>Lucid Modu ve Gerçeklik Testleri Arayüzü</em></p>
+  <img src="./assets/lucid-cover.png" width="45%" alt="Lucid Mode Interface" style="border-radius: 12px;" />
+  <p><em>Lucid Mode & Reality Checks Interface</em></p>
 </div>
 
 ---
