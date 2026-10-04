@@ -78,7 +78,7 @@ Client-side session tracker computing read-time metrics, scroll velocity (px/sec
 
 ---
 
-### 6. 🌙 Lucid Dream Engine & WBTB Scheduler (`src/engines/useLucidMode.ts` & `LucidNotificationService.ts`) — *from Mosaica Dream*
+### 6. Lucid Dream Engine & WBTB Scheduler (`src/engines/useLucidMode.ts` & `LucidNotificationService.ts`) — *from Mosaica Dream*
 The core **Lucid Dream System** of the Mosaica Dream app. It includes technical implementations designed to increase user awareness and facilitate dream control:
 - **WBTB (Wake Back to Bed) Optimization:** Schedules precise alarms 4.5 hours after the user's sleep time.
 - **MILD, FILD, and SSILD Techniques:** Manages the collision-free operation of lucid dream techniques and toggles their availability based on user dream statistics (requires a minimum of 3 logged dreams).
@@ -91,7 +91,7 @@ The core **Lucid Dream System** of the Mosaica Dream app. It includes technical 
 
 ---
 
-## 🛠️ Repository Structure
+## Repository Structure
 
 ```text
 mosaica-showcase/
