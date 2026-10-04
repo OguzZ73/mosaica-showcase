@@ -17,8 +17,8 @@ This repository unifies standalone modules extracted from two distinct productio
 ---
 
 <div align="center">
-  <img src="./assets/Ekran%20Resmi%202026-09-20%20-%2013.50.59.png" width="85%" alt="Bilinçaltı Evreni - Dream Constellation Map" style="border-radius: 16px; margin-bottom: 20px;" />
-  <p><em>Figure 1: Bilinçaltı Evreni (Dream Constellation Map) — SVG Star Node Visualization from Mosaica Dream</em></p>
+  <img src="./assets/lucid-cover.png" width="45%" alt="Lucid Modu Ekranı" style="border-radius: 16px; margin-bottom: 20px;" />
+  <p><em>Figure 1: Mosaica Dream Lucid Modu Arayüzü</em></p>
 </div>
 
 ---
@@ -78,7 +78,20 @@ Client-side session tracker computing read-time metrics, scroll velocity (px/sec
 
 ---
 
-## Repository Structure
+### 6. 🌙 Lucid Dream Engine & WBTB Scheduler (`src/engines/useLucidMode.ts` & `LucidNotificationService.ts`) — *from Mosaica Dream*
+Mosaica Dream uygulamasının **Lucid Rüya (Lüsid Rüya) Sistemi**. Kullanıcının farkındalığını artırmak ve rüya kontrolünü sağlamak için tasarlanmış teknik kodları içerir:
+- **WBTB (Wake Back to Bed) Optimizasyonu:** Kullanıcının uyku saatine göre 4.5 saat sonrasına hassas alarmlar kurar.
+- **MILD, FILD ve SSILD Teknikleri:** Lucid rüya tekniklerinin çakışmadan çalışmasını ve kullanıcının rüya istatistiklerine göre (min. 3 rüya kaydı) açılıp kapanmasını denetler.
+- **Gerçeklik Testleri (Reality Checks):** Gün içinde "Şu an rüyada mıyım?" bildirimleri atarak farkındalık oluşturur.
+
+<div align="center" style="margin-top: 15px; margin-bottom: 25px;">
+  <img src="./assets/lucid-cover.png" width="45%" alt="Lucid Modu Arayüzü" style="border-radius: 12px;" />
+  <p><em>Lucid Modu ve Gerçeklik Testleri Arayüzü</em></p>
+</div>
+
+---
+
+## 🛠️ Repository Structure
 
 ```text
 mosaica-showcase/
@@ -94,11 +107,13 @@ mosaica-showcase/
 └── src/
     ├── engines/                        # Core Logic & Services
     │   ├── zenflowEngine.ts            # Turkish NLP & Grammar Engine (Web)
-    │   └── LucidNotificationService.ts # Notification & WBTB Scheduler (Dream)
+    │   ├── LucidNotificationService.ts # Notification & WBTB Scheduler (Dream)
+    │   └── useLucidMode.ts             # Lucid Mode Logic & State Management (Dream)
     ├── components/
     │   ├── visualizations/             # SVG & Canvas Graphics
     │   │   ├── DreamConstellationMap.tsx (Dream)
-    │   │   └── CosmicAstrolabe.tsx (Dream)
+    │   │   ├── CosmicAstrolabe.tsx (Dream)
+    │   │   └── LucidIntroModal.tsx (Dream)
     │   ├── analytics/                  # Session Trackers & Metrics
     │   │   ├── ReadingSessionTracker.tsx (Web)
     │   │   └── SleepDreamCorrelationStats.tsx (Dream)
